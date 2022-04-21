@@ -16,7 +16,7 @@ widgets = ["Epoch %s/%s ", progressbar.Percentage(), " ", progressbar.Bar(),
            " ", progressbar.Variable("d_loss")]
 
 BATCH_SIZE = 128
-N_EPOCHS = 25
+N_EPOCHS = 40
 
 # 0.0 as default value
 g_loss, d_loss = 0.0, 0.0
