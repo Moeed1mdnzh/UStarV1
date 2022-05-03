@@ -163,8 +163,8 @@ for epoch in range(N_EPOCHS):
 stats = {}
 for i in range(N_EPOCHS):
     model = tf.keras.models.load_model(os.sep.join(["UNet", "models", f"generator_{i+1}.h5"]))
-    mse = inference(model, X_targets_test, X_images_test,
-                        return_res=False)
+    mse = inference(model, X_images_test, X_targets_test,
+                    return_res=False)
     stats[str(i+1)] = float(mse.numpy())
 ranks = rank_models(stats, N_EPOCHS)
 
