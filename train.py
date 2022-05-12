@@ -171,7 +171,7 @@ if args["save"]:
     path = os.sep.join(["UNet", "best_model"])
     os.system(f"mkdir {path}")
     model = tf.keras.models.load_model(os.sep.join(["UNet", "models", f"generator_{best}.h5"]))
-    model.save(os.sep.join(["UNet", "best_model", f"best_model.h5"]))
+    model.save(os.sep.join(["UNet", "best_model", "best_model.h5"]))
 
 if args["evaluate"]:
     index = np.random.randint(0, X_images_test.shape[0])
