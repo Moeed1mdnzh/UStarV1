@@ -114,8 +114,6 @@ discriminator = Discriminator(DISC_SHAPE, tf.keras.initializers.RandomNormal(std
 generator = Generator(GEN_SHAPE, tf.keras.initializers.RandomNormal(stddev=0.02)).build_model()
 
 discriminator.trainable = False
-disc_opt = tf.keras.optimizers.Adam(learning_rate=0.0002, beta_1=0.5)
-gen_opt = tf.keras.optimizers.Adam(learning_rate=0.0002, beta_1=0.5)
 
 for epoch in range(N_EPOCHS):
     epoch_widgets = widgets.copy()
