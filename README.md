@@ -42,7 +42,7 @@ About the augmentation techniques used to increase data
 Describes architectures of the following
 #### [Generator](https://github.com/Moeed1mdnzh/UStarV1/tree/master/UNet/generator)
 Generator's architecture
-#### [Discriminator](https://github.com/Moeed1mdnzh/UStarV1/tree/master/UNet/Discriminator)
+#### [Discriminator](https://github.com/Moeed1mdnzh/UStarV1/tree/master/UNet/discriminator)
 Discriminator's architecture
 ## Installation & Train
 Open up command prompt or terminal(for mac and linux users) and run the following commands in a directory you desire or if you're a google colab user, follow 
