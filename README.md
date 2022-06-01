@@ -65,6 +65,7 @@ Open up command prompt or terminal(for mac and linux users) and run the followin
 - --VISUALIZE: To wether save the visualizations or not
 - --EVALUATE: To wether evaluate the model or not
 - --SAVE: To wether save the best model or not
+Just a reminder that you can modify the training configurations in `UNet/configs.py`
 
 `!python train.py -v True -e True -s True`
 <br />
