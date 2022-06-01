@@ -35,10 +35,15 @@ realistic or clear as these colors are rarely seen in between stars.
 ## Contents
 The following URLs represent the explanation to each component of our approach
 ### [Dataset](https://github.com/Moeed1mdnzh/UStarV1/tree/master/data)
+About how the the dataset was created
 ### [Preprocessing](https://github.com/Moeed1mdnzh/UStarV1/tree/master/utilities)
+About the augmentation techniques used to increase data
 ### [Network](https://github.com/Moeed1mdnzh/UStarV1/tree/master/UNet)
+Describes architectures of the following
 #### [Generator](https://github.com/Moeed1mdnzh/UStarV1/tree/master/UNet/generator)
+Generator's architecture
 #### [Discriminator](https://github.com/Moeed1mdnzh/UStarV1/tree/master/UNet/Discriminator)
+Discriminator's architecture
 
 
 
