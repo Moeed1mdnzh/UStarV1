@@ -34,11 +34,11 @@ However, the translation of dark stars or pure white stars are not guaranteed to
 realistic or clear as these colors are rarely seen in between stars.
 ## Contents
 The following URLs represent the explanation to each component of our approach
-1. **[Dataset](https://github.com/Moeed1mdnzh/UStarV1/tree/master/data)**
-2. **[Preprocessing](https://github.com/Moeed1mdnzh/UStarV1/tree/master/utilities)**
- 3. **[Network](https://github.com/Moeed1mdnzh/UStarV1/tree/master/UNet)**
-   - **[Generator](https://github.com/Moeed1mdnzh/UStarV1/tree/master/UNet/generator)**
-   - **[Discriminator](https://github.com/Moeed1mdnzh/UStarV1/tree/master/UNet/Discriminator)**
+### [Dataset](https://github.com/Moeed1mdnzh/UStarV1/tree/master/data)
+### [Preprocessing](https://github.com/Moeed1mdnzh/UStarV1/tree/master/utilities)
+### [Network](https://github.com/Moeed1mdnzh/UStarV1/tree/master/UNet)
+#### [Generator](https://github.com/Moeed1mdnzh/UStarV1/tree/master/UNet/generator)
+#### [Discriminator](https://github.com/Moeed1mdnzh/UStarV1/tree/master/UNet/Discriminator)
 
 
 
