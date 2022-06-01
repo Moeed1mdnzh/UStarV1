@@ -44,6 +44,34 @@ Describes architectures of the following
 Generator's architecture
 #### [Discriminator](https://github.com/Moeed1mdnzh/UStarV1/tree/master/UNet/Discriminator)
 Discriminator's architecture
+## Installation & Train
+Open up command prompt or terminal(for mac and linux users) and run the following commands in a directory you desire or if you're a google colab user, follow 
+[UStarV1 Colab](https://github.com/Moeed1mdnzh/UStarV1/blob/master/UStarV1_Colab.ipynb)
+### Installation
+`!git clone https://github.com/Moeed1mdnzh/UStarV1`
+<br />
+`cd UStarV1`
+<br />
+**Install the required packages**
+<br />
+`!python setup.py`
+<br />
+### Train
+**Generate the dataset**
+<br />
+`!python generate_data.py`
+<br />
+**Train using the following arguments**
+- --VISUALIZE: To wether save the visualizations or not
+- --EVALUATE: To wether evaluate the model or not
+- --SAVE: To wether save the best model or not
+
+`!python train.py -v True -e True -s True`
+<br />
+After training, you can find the result of your evaluation in the main directory in two .jpg and .json formats.Your trained models and visualizations can as well be
+found in the **UNet** directory.
+
+
 
 
 
