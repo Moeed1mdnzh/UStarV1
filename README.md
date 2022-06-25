@@ -48,18 +48,18 @@ Discriminator's architecture
 Open up command prompt or terminal(for mac and linux users) and run the following commands in a directory you desire or if you're a google colab user, follow 
 [UStarV1 Colab](https://github.com/Moeed1mdnzh/UStarV1/blob/master/UStarV1_Colab.ipynb)
 ### Installation
-`!git clone https://github.com/Moeed1mdnzh/UStarV1`
+`git clone https://github.com/Moeed1mdnzh/UStarV1`
 <br />
 `cd UStarV1`
 <br />
 **Install the required packages**
 <br />
-`!python setup.py`
+`python setup.py`
 <br />
 ### Train
 **Generate the dataset**
 <br />
-`!python generate_data.py`
+`python generate_data.py`
 <br />
 **Train using the following arguments**
 - --VISUALIZE: To wether save the visualizations or not
@@ -68,7 +68,7 @@ Open up command prompt or terminal(for mac and linux users) and run the followin
 
 Just a reminder that you can modify the training configurations in `UNet/configs.py`
 
-`!python train.py -v True -e True -s True`
+`python train.py -v True -e True -s True`
 <br />
 After training, you can find the result of your evaluation in the main directory in two .jpg and .json formats.Your trained models and visualizations can as well be
 found in the **UNet** directory.
