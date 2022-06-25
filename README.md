@@ -4,7 +4,7 @@ Our goal is to create simulations in astrology using generative networks.In this
 aimed to provide images that resemble to realistic stars which is an Image-to-Image problem
 that we try to transform a basic painting to an image of a complex star.We used heavy image
 processing techniques to create our data using a single grayscale image of a star.Pix2Pix
-network is considered for training in this paper.We rank the model of each epoch using
+network is considered for training in this repo.We rank the model of each epoch using
 Mean-Squared-Error and then pick the top-5 best models with the lowest evaluation loss for
 our final insights
 ## Introduction
