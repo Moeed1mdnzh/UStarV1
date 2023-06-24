@@ -8,7 +8,10 @@ new samples:
 - Zooming in and out
 - And finally applying affine transformations
 In the next step of our preprocessing pipeline, the classic normalization for
-GANs are applied to our images $$ {img \-127.5 \over 127.5} $$
+GANs are applied to our images
+```math
+$$ {img-127.5 \over 127.5} $$
+```
 
 ![Preview of the augmented data](https://github.com/Moeed1mdnzh/UStarV1/blob/master/assets/augment.png)
 <br />
